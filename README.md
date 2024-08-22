@@ -1,1 +1,1 @@
-Para poder ejecutar el código deberá descargar el repositorio, descomprimirlo y ejecutar el archivo "trabajo1DS.html". Ahí podrá ver toda la página en cuestión.
+El código html corresponde al primer trabajo práctico de la materia desarrollo de software. Para poder ejecutar el código deberá descargar el repositorio, descomprimirlo y ejecutar el archivo "trabajo1DS.html". Ahí podrá ver toda la página en cuestión.
