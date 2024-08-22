@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctico : Front End - HTML </title>
+    <style>
+        table  {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        tfoot {
+            font-weight: bold;
+            background-color: gray;
+        }
+
+
+        footer{
+            background-color: grey;
+            color: white;
+
+        }
+
+        header{
+            margin: 0;
+            padding: 0;
+            background-color: grey;
+            color: white;
+        }
+
+        section{
+            margin-bottom: 20px;
+            border: 1px solid grey;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <h1>Trabajo Práctico Desarrollo de Software - HTML - Ignacio Canzio</h1>
+
+    </header>
+
+    <section id="Estructura">
+        <h2>1. Estructura Básica del Documento HTML</h1>
+        <p> 
+            Este documento HTML tiene una estructura básica que incluye la declaración del DOCTYPE, 
+            etiquetas de metadatos y un título
+        </p>
+    </section>
+
+    <section>
+        <h2>2. Encabezados y Propiedades del Texto</h2>
+        <p style="font-size: 20px; font-family: Arial, sans-serif; line-height: 1.8;">
+        <b>Este es un texto en negrita</b><br>
+        <em>Este es un texto en cursiva</em><br>
+        <mark>Este es un texto resaltado</mark><br>
+        <u>Este es un texto subrayado</u><br>
+        <del>Este es un texto tachado</del>
+        </p>
+    </section>
+
+    <section>
+        <h2>3. Divisiones y Agrupación de Contenido</h2>
+        <div>
+            <h3>Sección 1</h3>
+            <p style="font-size: 18px;"> Contenido de la primera sección agrupada en un div</p>
+        </div>
+        <div>
+            <h3>Sección 2</h3>
+            <p style="font-size: 18px;"> Contenido de la segunda sección agrupada en un div</p>
+
+        </div>
+
+    </section>
+
+    <section> 
+        <h2>4. Enlaces y Listas</h2> 
+        <p style="font-size: 18px">Visita nuestro <a href="https://campus.frm.utn.edu.ar/?" target="_blank"> sitio web</a> para mas información</p> 
+        <h3> Enlaces internos</h3>
+        <ul>
+            <li><a href="#Estructura"> Ir a Estructura</a></li>
+            <li><a href="#multimedias"> Ir a Multimedia</a></li>
+            <li><a href="#form"> Ir a Formularios</a></li>
+        </ul>
+        <h3>Lista Desordenada </h3>
+        <ul> 
+            <li>Primer elemento de una lista desordenada</li>
+            <li>Segundo elemento de una lista desordenada</li>
+            <li>Tercer elemento de una lista desordenada</li>
+        </ul>
+
+        <h3>Lista Ordenada </h3>
+        <ol> 
+            <li>Primer elemento de una lista ordenada</li>
+            <li>Segundo elemento de una lista ordenada</li>
+            <li>Tercer elemento de una lista ordenada </li>
+        </ol>
+    </section>
+
+    <section id="multimedias"> 
+        <h2>5. Elementos Multimedia</h2>
+        <img src="https://images.pexels.com/photos/27244362/pexels-photo-27244362/free-photo-of-lakes-viti-and-oskjuvatn-on-iceland.jpeg" width="400px" height="400px" alt="Imagen lago montañoso"/>
+        
+        <video src="https://cdn.pixabay.com/video/2017/10/15/12463-238795831_large.mp4" controls width="400px" height="400px"></video>
+
+        <audio src="https://cdn.pixabay.com/audio/2024/06/10/audio_7f3323e420.mp3" controls></audio>
+    </section>
+
+    <section>
+        <h2>6. Tablas</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                    <th>Columna 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fila 1, Celda 1</td>
+                    <td>Fila 1, Celda 2</td>
+                    <td>Fila 1, Celda 3</td>
+                </tr>
+                <tr>
+                    <td>Fila 2, Celda 1</td>
+                    <td>Fila 2, Celda 2</td>
+                    <td>Fila 2, Celda 3</td>
+                </tr>
+                <tr>
+                    <td>Fila 3, Celda 1</td>
+                    <td>Fila 3, Celda 2</td>
+                    <td>Fila 3, Celda 3</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>Total 1</td>
+                    <td>Total 2</td>
+                    <td>Total 3</td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+    </section>
+
+    <section id="form">
+        <h2>7. Formularios</h2>
+
+        <form>
+            <label>Nombre: </label>
+            <input type="text" placeholder="Nombre"/>
+
+            <label>Email: </label>
+            <input type="email" placeholder="example@example.com"/>
+
+            <label>Mensaje: </label>
+            <textarea></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+
+        <h4>Pié de página</h4>
+    </footer>
+</body>
+</html>
